@@ -14,21 +14,21 @@ Here push model:
 	$envia = new enviarEmail;
 
 	// Config Server
-	$envia->servidor = "mail.anjoscolchoes.com.br";
-	$envia->usuario = "site@anjoscolchoes.com.br";
-	$envia->senha = "caio123";
+	$envia->servidor = "mail.yourdomain.com.br";
+	$envia->usuario = "site@yourdomain.com.br";
+	$envia->senha = “*********”;
 	$envia->porta = 25;
 
 	// Send to? $this->para01 02 03... 05
-	$envia->para01 = "site@anjoscolchoes.com.br";
-	$envia->para02 = "operacao@anjos.ind.br";
-	$envia->para03 = "sandro@anjos.ind.br";
-	$envia->para04 = "fabricia@expandefranquias.com.br";
-	$envia->para05 = "marketing@anjos.ind.br";
-	$envia->para06 = "claudinei@anjos.ind.br";
+	$envia->para01 = “email01@yourdomain.com.br";
+	$envia->para02 = "email02@yourdomain.com.br";
+	$envia->para03 = "email03@yourdomain.com.br";
+	$envia->para04 = "email04@yourdomain.com.br";
+	$envia->para05 = "email05@yourdomain.com.br";
+	$envia->para06 = "email06@yourdomain.com.br";
 
 	// Subject
-	$envia->assunto = "Contato pelo Site AnjosColchoes";
+	$envia->assunto = "Contato pelo Site";
 
 	// Msg
 	$envia->nome = $_POST['nome'];
